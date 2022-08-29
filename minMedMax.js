@@ -8,6 +8,8 @@ function minMedMax(n1, n2, n3) {
         if (num != max && num != min) {
             mid = Number(num)
             break
+        } else {
+            mid = max
         }
     }
     return {min : min,
