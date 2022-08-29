@@ -7,6 +7,7 @@ function minMedMax(n1, n2, n3) {
     for (num of arr) {
         if (num != max && num != min) {
             mid = Number(num)
+            break
         }
     }
     return {min : min,
